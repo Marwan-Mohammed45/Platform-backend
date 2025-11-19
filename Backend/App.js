@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 connectdb();
 
 app.listen(PORT, () => {
-  console.log(`Platform is working on port ${PORT} ☝️🚀`);
+  console.log(`Platform is working on port ${PORT}🚀`);
 });
 
 export default app;
