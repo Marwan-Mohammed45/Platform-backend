@@ -9,7 +9,7 @@ const userschema = mongoose.Schema({
     enum: ["student", "teacher", "admin"],
     default: "student",
   },
-  otp:{type:String},
+  otp:{type:Number},
   otpExpires:{type:Date},
   isVerified:{type:Boolean,default:false}
 });
